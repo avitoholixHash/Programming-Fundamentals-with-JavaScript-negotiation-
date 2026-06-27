@@ -10,7 +10,7 @@ function asciiSumator(input) {
         const charCode = char.charCodeAt();
 
         if (charCode > text && charCode < end) {
-            sum += charCode;
+            sum += charCode; 
         }
     }
     console.log(sum);
